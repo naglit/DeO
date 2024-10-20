@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeO.Server", "DeO.Server\DeO.Server.csproj", "{241954FA-480D-4045-AFBC-BD72CA23CE0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeO.Server", "DeO.Server\DeO.Server.csproj", "{241954FA-480D-4045-AFBC-BD72CA23CE0E}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "deo.client", "deo.client\deo.client.esproj", "{6D1B707A-D71D-4721-B9C3-918E289C70DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeO.Documents", "DeO.Documents", "{DAAB3246-AED1-4B62-9E8B-3D515E2345E8}"
+	ProjectSection(SolutionItems) = preProject
+		Design.md = Design.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
